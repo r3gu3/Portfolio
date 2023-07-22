@@ -1,0 +1,229 @@
+body{
+    background: #F3E9E1;
+}
+
+.macbook-pro{
+    display: inline-flex;
+    padding: 30px 50px 30px 49px;
+    justify-content: center;
+    align-items: center;
+}
+.frame54{
+    display: flex;
+    gap: 64px;
+}
+.content-menu{
+    display: flex;
+    justify-content: space-between;
+    gap: 106px;
+}
+
+.content-menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.content-menu li{
+    display: flex;
+    width: 261px;
+    height: 200px;
+    gap: 8px;
+}
+
+.content-menu li a{
+    font-family: PP Neue Machina;
+    text-decoration: none;
+}
+
+.menu-step1{
+    display: flex;
+width: 198px;
+height: 152px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--1-yellow-card, #FFD42D);
+}
+
+.menu-step1 a{ 
+    color: #FFFADE;
+    text-align: center;
+    font-family: PP Neue Machina;
+    font-size: 160px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+}
+.menu-step2{
+    display: flex;
+    width: 261px;
+    height: 200px;
+    padding: 8px 16px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 8px;
+    border-radius: 10px;
+    background: var(--2-red-card, #F85B3C);
+}
+.menu-step2 a{
+    color: var(--2-egg-red, #FFF55A);
+    font-family: PP Neue Machina;
+    text-align: right;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    align-self: flex-end;
+}
+.menu-step3 {
+    display: flex;
+    width: 261px;
+    height: 200px;
+    padding: 8px 16px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 8px;
+    border-radius: 10px;
+    background: var(--3-black-card, #000);
+
+}
+.menu-step3 a {
+    color: var(--3-white-black, #FFF);
+    text-align: right;
+    font-family: PP Neue Machina;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    align-self: flex-end;
+}
+
+.menu-step4{
+    display: flex;
+    width: 261px;
+    height: 200px;
+    padding: 8px 16px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 8px;
+    border-radius: 10px;
+background: var(--4-purple-card, #5C19B7);
+}
+.menu-step4 a{
+    color: var(--2-egg-red, #FFF55A);
+    font-family: PP Neue Machina;
+    text-align: right;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    align-self: flex-end;
+}
+.content-main {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 104px;
+}
+.content-step1 {
+    display: flex;
+    width: 1304px;
+    height: 944px;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    border-radius: 10.502px;
+    background: var(--1-yellow-card, #FFD42D);
+}
+
+.content-step1-info {
+    display: flex;
+    width: 1072.224px;
+    justify-content: center;
+    align-items: center;
+    gap: 747.721px;
+}
+
+.content-step1-info h2{
+    color: var(--1-egg-yellow, #FFFADE);
+    font-family: PP Neue Machina;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content-step1-info .info-logo{
+    font-size: 35.135px;
+}
+
+.content-step1-info p{
+    color: var(--1-egg-yellow, #FFFADE);
+    font-family: PP Neue Machina;
+    font-size: 35.135px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title-body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    align-content: center;
+}
+.title-body h1{
+    color: var(--1-egg-yellow, #FFFADE);
+    font-family: PP Neue Machina;
+    font-size: 927.568px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-step2 {
+    display: flex;
+    width: 1304px;
+    height: 944px;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    border-radius: 10px;
+    background: var(--2-red-card, #F85B3C);
+}
+
+.content-step2-info {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 747.721px;
+}
+
+.content-step2-info h2{
+    color: var(--2-egg-red, #FFF55A);
+    font-family: PP Neue Machina;
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    align-self: flex-end;
+}
